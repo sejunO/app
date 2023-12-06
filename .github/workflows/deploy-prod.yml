@@ -48,4 +48,3 @@ jobs:
           docker build -t app/app:$IMAGE_TAG .
           docker push app/app:$IMAGE_TAG
           echo "image=app/app:$IMAGE_TAG" >> $GITHUB_OUTPUT
-          
