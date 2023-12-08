@@ -42,7 +42,6 @@ jobs:
           # Build a docker container and
           # push it to ECR so that it can
           # be deployed to ECS.
-          docker build -t app/aoo:$IMAGE_TAG .
+          docker build -t app/app:$IMAGE_TAG .
           echo "build success"
           docker push app/app:$IMAGE_TAG
-          
