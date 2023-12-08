@@ -46,4 +46,5 @@ jobs:
           echo "build success"
           docker push $ECR_REGISTRY/app:$IMAGE_TAG
           
+          
 
