@@ -45,6 +45,3 @@ jobs:
           docker build -t $ECR_REGISTRY/app:$IMAGE_TAG .
           echo "build $ECR_REGISTRY"
           docker push $ECR_REGISTRY/app:$IMAGE_TAG
-          
-          
-
