@@ -7,7 +7,7 @@ on:
 env:
   ECS_SERVICE: app_service
   ECS_CLUSTER: app
-  ECS_TASK_DEFINITION: app_tesk.json
+  ECS_TASK_DEFINITION: app_task.json
   CONTAINER_NAME: ecsContainer
 
 permissions:
